@@ -21,6 +21,7 @@ header {
 nav {
   display: flex;
   background-color: #d8a47f;
+  justify-content: flex-end;
 }
 
 nav a {
@@ -40,6 +41,7 @@ footer {
 
 .product {
   display: flex;
+  /* align-items: flex-start; */
   width: 90%;
   margin: 1% auto;
 }
@@ -50,10 +52,17 @@ footer {
 
 .product-slideshow {
   display: flex;
+  align-items: center;
+  
+  
+   
+  /* align-items: center; */
+  
 }
 
 .product-image {
   width: 100%;
+  
 }
 
 .product-details {
